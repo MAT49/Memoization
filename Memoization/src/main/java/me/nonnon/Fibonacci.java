@@ -7,8 +7,8 @@ public class Fibonacci {
 			return 0;
 		} else if (n==1) {
 			return 1;
-		} else if (memoiz[n] == -1) {
-			memoiz[n] = fib(n-1, memoiz) + fib(n-2, memoiz);
+		} else if (memoiz[n] == 0) {
+			memoiz[n] = fib(n-1, memoiz) + fib(n-2, memoiz);			
 		}
 		return memoiz[n];
 	}
