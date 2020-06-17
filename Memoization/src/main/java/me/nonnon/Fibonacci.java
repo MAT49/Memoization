@@ -2,7 +2,7 @@ package me.nonnon;
 
 public class Fibonacci {
 	
-	public static int fib(int n, int[] memoiz) {
+	public int fib(int n, int[] memoiz) {
 		if (n<=0) {
 			return 0;
 		} else if (n==1) {
